@@ -1,0 +1,92 @@
+body{
+    font-size: 25px;
+    line-height: 40px;
+    font-family: "bai-jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: 50px;
+    padding: 0px;
+}
+
+img {
+    width: 1000px;
+}
+
+div.title {
+    font-size: 35px;
+    line-height: 100px;
+    font-family: "andale-mono-mt-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+}
+
+div.title2 {
+    font-size: 30px;
+    line-height: 50px;
+    font-family: "andale-mono-mt-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;    
+    padding: 0px;
+}
+
+div.quote {
+    font-size: 25px;
+    line-height: 40px;
+    font-family: "bai-jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: italic;    
+    margin: 50px;
+    padding: 0px;
+}
+
+div.caption {
+    font-size: 15px;
+    line-height: 50px;
+    font-family: "bai-jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 50px;
+
+}
+
+div.bold {
+    font-size: 25px;
+    line-height: 50px;
+    font-family: "bai-jamjuree", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 50px;
+}
+
+div.font-white {
+    font-size: 25px;
+    line-height: 40px;
+    font-family: "bai-jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: normal;    
+    margin: 50px;
+    padding: 0px;
+    color: white;
+}
+
+div.bg-grey {
+    background-color: grey;
+}
+
+div.bg-black {
+    background-color: black
+}
+
+div.width25 {
+    width: 25%;
+}
+
+div.width50 {
+    width: 50%;
+}
+
+div.width75 {
+    width: 75%;
+}
