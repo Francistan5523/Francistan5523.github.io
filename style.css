@@ -5,9 +5,38 @@ body{
     font-weight: 400;
     font-style: normal;
 
-    margin: 50px;
+    border-top:40px solid white;  
+    margin: 20px;
     padding: 0px;
+
+    background-image: url(images/pattern.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 50px;
+    background-color: gray;
+
 }
+
+::-webkit-scrollbar {
+    width: 20px;
+  }
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: lightgrey;
+    border-radius: 0px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: grey; 
+    border-radius: 0px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: black; 
+  }
 
 img {
     width: 500px;
@@ -123,4 +152,30 @@ div.mr {
 
 div.ml {
     margin-left: 100px;
+}
+
+/* layout */
+
+div.container {
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 100px;
+    border-top:90px solid grey;
+}
+
+div.main {
+    width: calc(66.66% - 40px);
+    background: white;
+    padding: 20px;
+    height:100vh;
+    overflow-y: scroll;   
+}
+
+
+div.sidebar {
+    width: calc(33.33% - 40px);
+    background: whitesmoke;
+    padding: 20px;
+    height:100vh;
+    overflow-y: scroll;   
 }
