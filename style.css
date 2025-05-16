@@ -10,7 +10,7 @@ body{
 }
 
 img {
-    width: 1000px;
+    width: 500px;
 }
 
 div.title {
@@ -89,4 +89,38 @@ div.width50 {
 
 div.width75 {
     width: 75%;
+}
+
+div.width10 {
+    width: 10%
+}
+
+/* herovideo */
+
+img, video {
+    width: 100%;
+    display: block;
+}
+
+div.herovideo {
+    width: 300px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+div.mb {
+    margin-bottom: 100px;
+}
+
+div.mt {
+    margin-top: 100px;
+}
+
+div.mr {
+    margin-right: 100px;
+}
+
+div.ml {
+    margin-left: 100px;
 }
