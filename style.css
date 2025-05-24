@@ -15,7 +15,69 @@ body{
     background-size: 50px;
     background-color: gray;
 
+    /* animation area */
+
+    animation: change-font-color 1s forwards;
+    animation-delay: 101.15s;
 }
+      
+    @keyframes change-font-color {
+    from { color: black; }
+    to   { color: white; }
+}
+
+div.side {
+    width: 100%;
+}
+
+.slideshow {
+    position: relative;
+    width: 400px; 
+    height: 800px; 
+    overflow: hidden;
+  }
+  
+  .slide {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    animation: fade 20s infinite;
+  }
+  
+  /* Timing setup */
+  .s1  { animation-delay: 0s; }
+  .s2  { animation-delay: 3050ms; }
+  .s3  { animation-delay: 12100ms; }
+  .s4  { animation-delay: 26580ms; }
+  .s5  { animation-delay: 31080ms; }
+  .s6  { animation-delay: 32000ms; }
+  .s7  { animation-delay: 34000ms; }
+  .s8  { animation-delay: 35000ms; }
+  .s9  { animation-delay: 39000ms; }
+  .s10 { animation-delay: 43150ms; }
+  .s11 { animation-delay: 48100ms; }
+  .s12 { animation-delay: 52100ms; }
+  .s13 { animation-delay: 70550ms; }
+  .s14 { animation-delay: 91350ms; }
+  .s15 { animation-delay: 101150ms; } /* black and white part */
+  .s16 { animation-delay: 112500ms; }
+  .s17 { animation-delay: 123500ms; }
+  .s18 { animation-delay: 138200ms; }
+  .s19 { animation-delay: 174200ms; }
+  .s20 { animation-delay: 180010ms; }
+  .s21 { animation-delay: 209200ms; }
+  .s22 { animation-delay: 238200ms; }
+  .s23 { animation-delay: 240200ms; }
+  .s24 { animation-delay: 240700ms; }
+  .s25 { animation-delay: 274500ms; }
+  
+  /* Fade effect */
+  @keyframes fade {
+    0%    { opacity: 0; }
+    5%    { opacity: 1; }
+    95%   { opacity: 1; }
+    100%  { opacity: 0; }
+  }
 
 ::-webkit-scrollbar {
     width: 20px;
@@ -49,6 +111,17 @@ div.title {
     font-weight: 400;
     font-style: normal;
     padding: 0px;
+
+    /* animation area */
+
+    animation: change-font-color 1s forwards;
+    animation-delay: 101.15s;
+}
+          
+    @keyframes change-font-color {
+    from { color: black; }
+    to   { color: white; }
+        
 }
 
 div.title2 {
@@ -68,6 +141,17 @@ div.quote {
     font-style: italic;    
     margin: 50px;
     padding: 0px;
+
+    /* animation area */
+
+    animation: change-font-color 1s forwards;
+    animation-delay: 101.15s;
+}
+          
+    @keyframes change-font-color {
+    from { color: black; }
+    to   { color: white; }
+        
 }
 
 div.caption {
@@ -87,6 +171,17 @@ div.bold {
     font-weight: 700;
     font-style: normal;
     margin: 50px;
+
+    /* animation area */
+
+    animation: change-font-color 1s forwards;
+    animation-delay: 101.15s;
+  }
+      
+    @keyframes change-font-color {
+    from { color: black; }
+    to   { color: white; }
+    
 }
 
 div.font-white {
@@ -98,14 +193,6 @@ div.font-white {
     margin: 50px;
     padding: 0px;
     color: white;
-}
-
-div.bg-grey {
-    background-color: grey;
-}
-
-div.bg-black {
-    background-color: black
 }
 
 div.width25 {
@@ -168,7 +255,17 @@ div.main {
     background: white;
     padding: 20px;
     height:100vh;
-    overflow-y: scroll;   
+    overflow-y: scroll;  
+    
+    /* animation area */
+
+    animation: change-bg 1s forwards;
+    animation-delay: 101.15s;
+  }
+  
+  @keyframes change-bg {
+    from { background-color: whitesmoke; }
+    to   { background-color: black; }
 }
 
 
@@ -178,4 +275,17 @@ div.sidebar {
     padding: 20px;
     height:100vh;
     overflow-y: scroll;   
+
+    /* animation area */
+
+    animation: change-bg 1s forwards;
+    animation-delay: 101.15s;
 }
+  
+  @keyframes change-bg {
+    from { background-color: whitesmoke; }
+    to   { background-color: black; }
+}
+
+
+  
