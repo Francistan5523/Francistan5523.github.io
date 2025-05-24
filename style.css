@@ -30,6 +30,20 @@ div.side {
     width: 100%;
 }
 
+/* herovideo */
+
+img, video {
+    width: 100%;
+    display: block;
+}
+
+div.herovideo {
+    width: 300px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
 .slideshow {
     position: relative;
     width: 400px; 
@@ -209,20 +223,6 @@ div.width75 {
 
 div.width10 {
     width: 10%
-}
-
-/* herovideo */
-
-img, video {
-    width: 100%;
-    display: block;
-}
-
-div.herovideo {
-    width: 300px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
 }
 
 div.mb {
