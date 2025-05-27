@@ -26,6 +26,7 @@ body{
     to   { color: white; }
 }
 
+
 div.side {
     width: 100%;
 }
@@ -42,6 +43,7 @@ div.herovideo {
     position: fixed;
     bottom: 20px;
     right: 20px;
+    z-index: 9999; 
 }
 
 .slideshow {
@@ -257,35 +259,41 @@ div.main {
     height:100vh;
     overflow-y: scroll;  
     
-    /* animation area */
+    /* animation area blur + change bg*/
 
-    animation: change-bg 1s forwards;
-    animation-delay: 101.15s;
+    animation: change-bg 1s forwards 101.15s, blur 1s ease-in-out 27.5s;
   }
   
   @keyframes change-bg {
-    from { background-color: whitesmoke; }
+    from { background-color: white; }
     to   { background-color: black; }
+}
+
+    @keyframes blur {
+    50%{
+        filter: blur(10px);
+    }
 }
 
 
 div.sidebar {
     width: calc(33.33% - 40px);
-    background: whitesmoke;
+    background: white;
     padding: 20px;
     height:100vh;
     overflow-y: scroll;   
 
-    /* animation area */
-
-    animation: change-bg 1s forwards;
-    animation-delay: 101.15s;
+    /* animation area blur + change bg*/
+    animation: change-bg 1s forwards 101.15s, blur 1s ease-in-out 27.5s;
 }
   
   @keyframes change-bg {
-    from { background-color: whitesmoke; }
+    from { background-color: white; }
     to   { background-color: black; }
 }
 
-
-  
+    @keyframes blur {
+    50%{
+        filter: blur(10px);
+    }
+}  
