@@ -261,7 +261,7 @@ div.main {
     
     /* animation area blur + change bg*/
 
-    animation: change-bg 1s forwards 101.15s, blur 1s ease-in-out 27.5s;
+    animation: change-bg 1s forwards 101.15s, blur 1s ease-in-out 28.5s;
   }
   
   @keyframes change-bg {
@@ -284,7 +284,7 @@ div.sidebar {
     overflow-y: scroll;   
 
     /* animation area blur + change bg*/
-    animation: change-bg 1s forwards 101.15s, blur 1s ease-in-out 27.5s;
+    animation: change-bg 1s forwards 101.15s, blur 1s ease-in-out 28.5s;
 }
   
   @keyframes change-bg {
