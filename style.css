@@ -17,14 +17,18 @@ body{
 
     /* animation area */
 
-    animation: change-font-color 1s forwards;
-    animation-delay: 101.15s;
+    animation: change-font-color 1s forwards 102150ms, change-border-top 1s forwards 102150ms;
 }
       
     @keyframes change-font-color {
     from { color: black; }
     to   { color: white; }
 }
+
+    @keyframes change-border-top {
+    from { border-top-color:  white; }
+    to   { border-top-color:  black; }
+    }
 
 
 div.side {
@@ -62,29 +66,29 @@ div.herovideo {
   
   /* Timing setup */
   .s1  { animation-delay: 0s; }
-  .s2  { animation-delay: 3050ms; }
-  .s3  { animation-delay: 12100ms; }
-  .s4  { animation-delay: 26580ms; }
+  .s2  { animation-delay: 10040ms; }
+  .s3  { animation-delay: 11600ms; }
+  .s4  { animation-delay: 27580ms; }
   .s5  { animation-delay: 31080ms; }
   .s6  { animation-delay: 32000ms; }
   .s7  { animation-delay: 34000ms; }
   .s8  { animation-delay: 35000ms; }
-  .s9  { animation-delay: 39000ms; }
-  .s10 { animation-delay: 43150ms; }
-  .s11 { animation-delay: 48100ms; }
+  .s9  { animation-delay: 40000ms; }
+  .s10 { animation-delay: 44150ms; }
+  .s11 { animation-delay: 47100ms; }
   .s12 { animation-delay: 52100ms; }
   .s13 { animation-delay: 70550ms; }
-  .s14 { animation-delay: 91350ms; }
-  .s15 { animation-delay: 101150ms; } /* black and white part */
+  .s14 { animation-delay: 94150ms; }
+  .s15 { animation-delay: 102150ms; } /* black and white part */
   .s16 { animation-delay: 112500ms; }
   .s17 { animation-delay: 123500ms; }
   .s18 { animation-delay: 138200ms; }
   .s19 { animation-delay: 174200ms; }
   .s20 { animation-delay: 180010ms; }
-  .s21 { animation-delay: 209200ms; }
+  .s21 { animation-delay: 213200ms; }
   .s22 { animation-delay: 238200ms; }
   .s23 { animation-delay: 240200ms; }
-  .s24 { animation-delay: 240700ms; }
+  .s24 { animation-delay: 260700ms; }
   .s25 { animation-delay: 274500ms; }
   
   /* Fade effect */
@@ -110,7 +114,7 @@ div.herovideo {
     background: grey; 
     border-radius: 0px;
   }
-  
+
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: black; 
@@ -131,7 +135,7 @@ div.title {
     /* animation area */
 
     animation: change-font-color 1s forwards;
-    animation-delay: 101.15s;
+    animation-delay: 102150ms;
 }
           
     @keyframes change-font-color {
@@ -161,7 +165,7 @@ div.quote {
     /* animation area */
 
     animation: change-font-color 1s forwards;
-    animation-delay: 101.15s;
+    animation-delay: 102150ms;
 }
           
     @keyframes change-font-color {
@@ -191,7 +195,7 @@ div.bold {
     /* animation area */
 
     animation: change-font-color 1s forwards;
-    animation-delay: 101.15s;
+    animation-delay: 102150ms;
   }
       
     @keyframes change-font-color {
@@ -250,6 +254,13 @@ div.container {
     flex-wrap:wrap;
     margin-top: 100px;
     border-top:90px solid grey;
+
+    animation: change-border 1s forwards 102150ms;
+}
+
+@keyframes change-border {
+    from {border-top-color: grey; }
+    to   { border-top-color: black; }
 }
 
 div.main {
@@ -261,7 +272,7 @@ div.main {
     
     /* animation area blur + change bg*/
 
-    animation: change-bg 1s forwards 101.15s, blur 1s ease-in-out 28.5s;
+    animation: change-bg 1s forwards 102150ms, blur 1s ease-in-out 27.5s;
   }
   
   @keyframes change-bg {
@@ -284,7 +295,7 @@ div.sidebar {
     overflow-y: scroll;   
 
     /* animation area blur + change bg*/
-    animation: change-bg 1s forwards 101.15s, blur 1s ease-in-out 28.5s;
+    animation: change-bg 1s forwards 102150ms, blur 1s ease-in-out 27.5s;
 }
   
   @keyframes change-bg {
