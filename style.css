@@ -17,23 +17,36 @@ body{
 
     /* animation area */
 
-    animation: change-font-color 1s forwards 102150ms, change-border-top 1s forwards 102150ms;
 }
-      
-    @keyframes change-font-color {
-    from { color: black; }
-    to   { color: white; }
-}
+     
 
-    @keyframes change-border-top {
-    from { border-top-color:  white; }
-    to   { border-top-color:  black; }
-    }
 
 
 div.side {
     width: 100%;
 }
+
+/* welcome screen */
+
+.welcome {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    color: white;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999;
+    cursor: pointer;
+  }
+  
+  .welcome.visible {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
 /* herovideo */
 
@@ -50,55 +63,9 @@ div.herovideo {
     z-index: 9999; 
 }
 
-.slideshow {
-    position: relative;
-    width: 400px; 
-    height: 800px; 
-    overflow: hidden;
-  }
-  
-  .slide {
-    position: absolute;
-    width: 100%;
-    opacity: 0;
-    animation: fade 20s infinite;
-  }
-  
-  /* Timing setup */
-  .s1  { animation-delay: 0s; }
-  .s2  { animation-delay: 10040ms; }
-  .s3  { animation-delay: 11600ms; }
-  .s4  { animation-delay: 27580ms; }
-  .s5  { animation-delay: 31080ms; }
-  .s6  { animation-delay: 32000ms; }
-  .s7  { animation-delay: 34000ms; }
-  .s8  { animation-delay: 35000ms; }
-  .s9  { animation-delay: 40000ms; }
-  .s10 { animation-delay: 44150ms; }
-  .s11 { animation-delay: 47100ms; }
-  .s12 { animation-delay: 52100ms; }
-  .s13 { animation-delay: 70550ms; }
-  .s14 { animation-delay: 94150ms; }
-  .s15 { animation-delay: 102150ms; } /* black and white part */
-  .s16 { animation-delay: 112500ms; }
-  .s17 { animation-delay: 123500ms; }
-  .s18 { animation-delay: 138200ms; }
-  .s19 { animation-delay: 174200ms; }
-  .s20 { animation-delay: 180010ms; }
-  .s21 { animation-delay: 213200ms; }
-  .s22 { animation-delay: 238200ms; }
-  .s23 { animation-delay: 240200ms; }
-  .s24 { animation-delay: 260700ms; }
-  .s25 { animation-delay: 274500ms; }
-  
-  /* Fade effect */
-  @keyframes fade {
-    0%    { opacity: 0; }
-    5%    { opacity: 1; }
-    95%   { opacity: 1; }
-    100%  { opacity: 0; }
-  }
 
+  
+  
 ::-webkit-scrollbar {
     width: 20px;
   }
@@ -138,11 +105,7 @@ div.title {
     animation-delay: 102150ms;
 }
           
-    @keyframes change-font-color {
-    from { color: black; }
-    to   { color: white; }
-        
-}
+
 
 div.title2 {
     font-size: 30px;
@@ -168,11 +131,7 @@ div.quote {
     animation-delay: 102150ms;
 }
           
-    @keyframes change-font-color {
-    from { color: black; }
-    to   { color: white; }
-        
-}
+
 
 div.caption {
     font-size: 15px;
@@ -198,11 +157,7 @@ div.bold {
     animation-delay: 102150ms;
   }
       
-    @keyframes change-font-color {
-    from { color: black; }
-    to   { color: white; }
-    
-}
+
 
 div.font-white {
     font-size: 25px;
@@ -258,10 +213,6 @@ div.container {
     animation: change-border 1s forwards 102150ms;
 }
 
-@keyframes change-border {
-    from {border-top-color: grey; }
-    to   { border-top-color: black; }
-}
 
 div.main {
     width: calc(66.66% - 40px);
@@ -275,16 +226,9 @@ div.main {
     animation: change-bg 1s forwards 102150ms, blur 1s ease-in-out 27.5s;
   }
   
-  @keyframes change-bg {
-    from { background-color: white; }
-    to   { background-color: black; }
-}
 
-    @keyframes blur {
-    50%{
-        filter: blur(10px);
-    }
-}
+
+
 
 
 div.sidebar {
@@ -298,13 +242,46 @@ div.sidebar {
     animation: change-bg 1s forwards 102150ms, blur 1s ease-in-out 27.5s;
 }
   
-  @keyframes change-bg {
-    from { background-color: white; }
-    to   { background-color: black; }
+
+
+
+div.slide {
+    display: none;
 }
 
-    @keyframes blur {
-    50%{
-        filter: blur(10px);
-    }
-}  
+div.show {
+    display: block;
+}
+
+
+div.slide1 {
+
+}
+
+div.slide2 {
+    
+}
+
+div.slide3 {
+    
+}
+
+/* triggers and changes  */
+
+div.invert {
+    background-color: black;
+    color:white;
+}
+
+div.borders {
+    border-color:red;
+}
+
+div.highlight {
+    background-color: black;
+    color:white;
+}
+
+div.hide {
+    color: white;
+}
