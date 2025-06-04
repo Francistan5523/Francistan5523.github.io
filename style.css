@@ -14,13 +14,7 @@ body{
     background-attachment: fixed;
     background-size: 50px;
     background-color: gray;
-
-    /* animation area */
-
 }
-     
-
-
 
 div.side {
     width: 100%;
@@ -105,8 +99,6 @@ div.title {
     animation-delay: 102150ms;
 }
           
-
-
 div.title2 {
     font-size: 30px;
     line-height: 50px;
@@ -213,7 +205,6 @@ div.container {
     animation: change-border 1s forwards 102150ms;
 }
 
-
 div.main {
     width: calc(66.66% - 40px);
     background: white;
@@ -225,11 +216,6 @@ div.main {
 
     animation: change-bg 1s forwards 102150ms, blur 1s ease-in-out 27.5s;
   }
-  
-
-
-
-
 
 div.sidebar {
     width: calc(33.33% - 40px);
@@ -243,8 +229,6 @@ div.sidebar {
 }
   
 
-
-
 div.slide {
     display: none;
 }
@@ -253,23 +237,15 @@ div.show {
     display: block;
 }
 
-
-div.slide1 {
-
-}
-
-div.slide2 {
-    
-}
-
-div.slide3 {
-    
-}
-
 /* triggers and changes  */
 
 div.invert {
     background-color: black;
+    color:white;
+}
+
+div.invert2 {
+    background-color: grey;
     color:white;
 }
 
@@ -284,4 +260,13 @@ div.highlight {
 
 div.hide {
     color: white;
+}
+
+div.highlight2 {
+    background-color: grey;
+    color: whitesmoke;
+}
+
+div.hide2 {
+    color:black
 }

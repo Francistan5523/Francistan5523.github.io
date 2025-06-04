@@ -55,24 +55,48 @@ const classChanges = [
   /* highlight text */
 
   { time: 6, target: ".t2", add: "highlight" },
-  { time: 13, target: ".t2", remove: "highlight" },  
+  { time: 13, target: ".t2", remove: "highlight" }, 
+  { time: 258, target: ".quote", add: "highlight" },
+  { time: 267, target: ".quote", remove: "highlight"},
+  
+  { time: 20, target: ".main", add: "highlight2" },
+  { time: 22, target: ".main", remove: "highlight2" },
+  { time: 59, target: ".bold", add: "highlight2" },
+  { time: 62, target: ".bold", remove: "highlight2" },
+  { time: 277, target: ".main", add: "highlight2"},
+
 
   /* invert */
 
   { time: 102, target: ".main", add: "invert" },
-  { time: 103, target: ".main", remove: "invert" },
+  { time: 105, target: ".main", remove: "invert" },
   { time: 175, target: ".main", add: "invert" },
   { time: 175, target: ".main", remove: "invert" },
+  { time: 274, target: ".main", add: "invert" },
 
+  { time: 11, target: ".sidebar", add: "invert" },
+  { time: 27, target: ".sidebar", remove: "invert" },  
+  { time: 48, target: ".sidebar", add: "invert2" },
+  { time: 52, target: ".sidebar", remove: "invert2" },  
   { time: 102, target: ".sidebar", add: "invert" },
-  { time: 103, target: ".sidebar", remove: "invert" },  
+  { time: 107, target: ".sidebar", remove: "invert" },  
   { time: 175, target: ".sidebar", add: "invert" },
-  { time: 175, target: ".sidebar", remove: "invert" },  
+  { time: 183, target: ".sidebar", remove: "invert" }, 
+  { time: 276, target: ".sidebar", add: "invert"},
+
+  { time: 102, target: ".container", add: "invert" },
+  { time: 106, target: ".container", remove: "invert" },  
+  { time: 175, target: ".container", add: "invert" },
+  { time: 175, target: ".container", remove: "invert" }, 
+  { time: 274, target: ".container", add: "invert" },
+  { time: 275, target: ".container", remove: "invert" }, 
 
   /* hide */
 
   { time: 27, target: ".main", add: "hide" },
   { time: 28, target: ".main", remove: "hide" },
+  { time: 272, target: ".main", add: "hide" },
+  { time: 273, target: ".main", remove: "hide" },
 
   { time: 27, target: ".sidebar", add: "hide" },
   { time: 28, target: ".sidebar", remove: "hide" },
