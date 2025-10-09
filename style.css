@@ -407,7 +407,7 @@ div.body2 {
   font-size: 16px;
   color: black;
   line-height: 28px;
-  margin-bottom: 0px;
+  margin-bottom: 50px;
 }
 
 /* red stripes */
@@ -627,7 +627,7 @@ img {
 .asset32-img {
   position: absolute;
   left: 100px;
-  top: 6900px;
+  top: 7300px;
   height: 300px;
   width: 300px;
 }
@@ -651,7 +651,7 @@ img {
 .asset6-img {
   position: relative;
   left: 500px;
-  top: 100px;
+  top: 200px;
   height: 200px;
   width: 200px;
 }
