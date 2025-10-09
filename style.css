@@ -658,9 +658,24 @@ img {
 
 .asset7-img {
   position: absolute;
-  left: 770px;
-  top: 280px;
+  left: 760px;
+  top: 286px;
   height: 700px;
   width: 700px;
+}
 
+.asset8-img {
+  position: absolute;
+  left: 450px;
+  top: 7201px;
+  height: 500px;
+  width: 500px;
+}
+
+.asset9-img {
+  position: absolute;
+  left: 0px;
+  top: 5400px;
+  height: 650px;
+  width: 650px;
 }
