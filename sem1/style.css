@@ -1,0 +1,272 @@
+body{
+    font-size: 25px;
+    line-height: 40px;
+    font-family: "bai-jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    border-top:40px solid white;  
+    margin: 20px;
+    padding: 0px;
+
+    background-image: url(images/pattern.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 50px;
+    background-color: gray;
+}
+
+div.side {
+    width: 100%;
+}
+
+/* welcome screen */
+
+.welcome {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    color: white;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999;
+    cursor: pointer;
+  }
+  
+  .welcome.visible {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+/* herovideo */
+
+img, video {
+    width: 100%;
+    display: block;
+}
+
+div.herovideo {
+    width: 300px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999; 
+}
+
+
+  
+  
+::-webkit-scrollbar {
+    width: 20px;
+  }
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: lightgrey;
+    border-radius: 0px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: grey; 
+    border-radius: 0px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: black; 
+  }
+
+img {
+    width: 500px;
+}
+
+div.title {
+    font-size: 35px;
+    line-height: 100px;
+    font-family: "andale-mono-mt-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+
+    /* animation area */
+
+    animation: change-font-color 1s forwards;
+    animation-delay: 102150ms;
+}
+          
+div.title2 {
+    font-size: 30px;
+    line-height: 50px;
+    font-family: "andale-mono-mt-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;    
+    padding: 0px;
+}
+
+div.quote {
+    font-size: 25px;
+    line-height: 40px;
+    font-family: "bai-jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: italic;    
+    margin: 50px;
+    padding: 0px;
+
+    /* animation area */
+
+    animation: change-font-color 1s forwards;
+    animation-delay: 102150ms;
+}
+          
+
+
+div.caption {
+    font-size: 15px;
+    line-height: 50px;
+    font-family: "bai-jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 50px;
+
+}
+
+div.bold {
+    font-size: 25px;
+    line-height: 50px;
+    font-family: "bai-jamjuree", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 50px;
+
+    /* animation area */
+
+    animation: change-font-color 1s forwards;
+    animation-delay: 102150ms;
+  }
+      
+
+
+div.font-white {
+    font-size: 25px;
+    line-height: 40px;
+    font-family: "bai-jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: normal;    
+    margin: 50px;
+    padding: 0px;
+    color: white;
+}
+
+div.width25 {
+    width: 25%;
+}
+
+div.width50 {
+    width: 50%;
+}
+
+div.width75 {
+    width: 75%;
+}
+
+div.width10 {
+    width: 10%
+}
+
+div.mb {
+    margin-bottom: 100px;
+}
+
+div.mt {
+    margin-top: 100px;
+}
+
+div.mr {
+    margin-right: 100px;
+}
+
+div.ml {
+    margin-left: 100px;
+}
+
+/* layout */
+
+div.container {
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 100px;
+    border-top:90px solid grey;
+
+    animation: change-border 1s forwards 102150ms;
+}
+
+div.main {
+    width: calc(66.66% - 40px);
+    background: white;
+    padding: 20px;
+    height:100vh;
+    overflow-y: scroll;  
+    
+    /* animation area blur + change bg*/
+
+    animation: change-bg 1s forwards 102150ms, blur 1s ease-in-out 27.5s;
+  }
+
+div.sidebar {
+    width: calc(33.33% - 40px);
+    background: white;
+    padding: 20px;
+    height:100vh;
+    overflow-y: scroll;   
+
+    /* animation area blur + change bg*/
+    animation: change-bg 1s forwards 102150ms, blur 1s ease-in-out 27.5s;
+}
+  
+
+div.slide {
+    display: none;
+}
+
+div.show {
+    display: block;
+}
+
+/* triggers and changes  */
+
+div.invert {
+    background-color: black;
+    color:white;
+}
+
+div.invert2 {
+    background-color: grey;
+    color:white;
+}
+
+div.borders {
+    border-color:red;
+}
+
+div.highlight {
+    background-color: black;
+    color:white;
+}
+
+div.hide {
+    color: white;
+}
+
+div.highlight2 {
+    background-color: grey;
+    color: whitesmoke;
+}
+
+div.hide2 {
+    color:black
+}
