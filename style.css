@@ -6,9 +6,8 @@ body{
     font-weight: 400;
     font-style:normal;
     color: white;
-
+    margin-right: 100px;
     border-top: 50px solid white;
-    padding: 0px;
 
     background-color: red
 }
@@ -26,7 +25,6 @@ div.title {
   font-weight: bold;
   font-style: normal;
   color: red;
-  padding: 0px;
 }
 
 div.title2 {
@@ -36,7 +34,8 @@ div.title2 {
   font-weight: bold;
   font-style: normal;
   color: white;
-  padding: 0px;
+  margin-left: 50px;
+  margin-top: 50px;
 }
 
 div.title3 {
@@ -53,7 +52,6 @@ div.title4 {
   font-weight: bold;
   font-style: normal;
   color: white;
-  padding: 0px;
   margin-left: -700px;
   margin-top: 200px;
 }
@@ -64,7 +62,6 @@ div.subtitle {
   font-family: "poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  padding: 100px;
 }
 
 div.subtitle2 {
@@ -72,6 +69,7 @@ div.subtitle2 {
   line-height: 35px;
   font-weight: 400;
   color: black;
+  margin-top: 100px;
 }
 
 div.firstsubtitle {
@@ -80,7 +78,6 @@ div.firstsubtitle {
   font-family: "poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  padding: 100px;
   margin-top: 80px;
 }
 
@@ -90,7 +87,7 @@ div.quote {
   font-family: "poppins", sans-serif;
   font-weight: 400;
   font-style: italic;
-  padding: 0px;
+  margin-left: 180px;  
 }
 
 div.quote2 {
@@ -99,7 +96,6 @@ div.quote2 {
   font-family: "poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  padding: 0px;
 }
 
 div.body1 {
@@ -108,9 +104,10 @@ div.body1 {
   font-family: "poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  padding:  100px;
   max-width: 100%;
   margin-bottom: 0px;
+  margin-right: 100px;
+
 }
 
 div.firstbody {
@@ -119,9 +116,9 @@ div.firstbody {
   font-family: "poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  padding:  100px;
   max-width: 100%;
-  margin-top: -200px;
+  margin-top: 00px;
+  margin-right: 100px;
   color: white;
 }
 
@@ -132,9 +129,10 @@ div.body3 {
   font-family: "poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  padding:  10px;
   max-width: 100%;
-  margin-top: 270px;
+  margin-top: 400px;
+  margin-right: 100px;
+
 }
 
 div.body4 {
@@ -144,9 +142,10 @@ div.body4 {
   font-family: "poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  padding:  10px;
   max-width: 100%;
   margin-top: 10px;
+  margin-right: 100px;
+
 }
 
 div.body5 {
@@ -156,9 +155,10 @@ div.body5 {
   font-family: "poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  padding:  10px;
   max-width: 100%;
   margin-top: 20px;
+  margin-right: 100px;
+
 }
 
 div.footnote {
@@ -167,8 +167,8 @@ div.footnote {
   font-family: "poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  padding: 0px;
   margin-top: 5px;
+  margin-left: 50px;
 }
 
 /* widths */
@@ -224,7 +224,6 @@ div.container {
 div.left {
   background: white;
   color: black;
-  padding: 20px;
   border: 5px solid red;
   display: block;
   flex-direction: column;
@@ -237,8 +236,7 @@ div.left {
 
 div.right {
   background: red;
-  padding: 10px;
-  height: auto;  
+  height: 650px;  
   max-width: 100%;
 }
 
@@ -274,13 +272,12 @@ div.right {
 /* second section layout */
 
 .second-section {
-  margin-top: 100px;
+  margin-top: 00px;
   display: grid;
   grid-template-columns: 30% 70%;
   gap: 40px;
   align-items: start;
   background-color: white;
-  padding: 60px 80px;
   width: 100vw;
   box-sizing: border-box;
 }
@@ -356,9 +353,9 @@ div.right {
 /* 2 chinese stars */
 .china-stars2 {
   position: relative;
-  height: 300px;
-  width: 300px;
-  margin-top: 10px;
+  height: 250px;
+  width: 250px;
+  margin-top: 70px;
 }
 
 .star2 {
@@ -398,8 +395,7 @@ div.right {
 /* right side */
 div.right2 {
   background: transparent;
-  padding: 40px 60px;
-  height: auto;  
+  height: auto; 
   max-width: 100%;
 }
 
@@ -408,6 +404,8 @@ div.body2 {
   color: black;
   line-height: 28px;
   margin-bottom: 50px;
+  margin-right: 100px;
+
 }
 
 /* red stripes */
@@ -449,36 +447,31 @@ div.body2 {
   gap: 40px;
   align-items: start;
   background-color: white;
-  padding: 60px 80px;
   width: 100vw;
   box-sizing: border-box;
 }
 
 div.right3 {
   background: white;
-  padding: 40px 60px;
   height: auto;  
   max-width: 100%;
   grid-column: 2;
-  margin-top: -490px;
+  margin-top: -300px;
 }
 
 /* fourth section layout */
 .fourth-section {
-  margin-top: 100px;
   display: grid;
   grid-template-columns: 70% 30%;
   gap: 40px;
   align-items: start;
   background-color: transparent;
-  padding: 60px 80px;
   width: 100vw;
   box-sizing: border-box;
 }
 
 div.right4 {
   background: transparent;
-  padding: 40px 60px;
   height: 800px;  
   max-width: 100%;
 }
@@ -492,7 +485,6 @@ div.right4 {
   gap: 40px;
   align-items: start;
   background-color: white;
-  padding: 60px 80px;
   width: 100vw;
   box-sizing: border-box;
   height: auto;
@@ -500,11 +492,10 @@ div.right4 {
 
 div.right5 {
   background: transparent;
-  padding: 40px 60px;
   height: auto;  
-  margin-right: 00px;
+  margin-right: 0px;
   max-width: 100%;
-  margin-top: -400px;
+  margin-top: -1500px;
   grid-column: 2;
 }
 
@@ -516,18 +507,15 @@ div.right5 {
   gap: 40px;
   align-items: start;
   background-color: white;
-  padding: 60px 80px;
   width: 100vw;
   box-sizing: border-box;
 }
 
 div.right6 {
   background: transparent;
-  padding: 40px 60px;
   height: auto;  
   max-width: 100%;
   grid-column: 2;
-  margin-top: -200px;
 }
 
 /* black stripes */
@@ -563,14 +551,12 @@ div.right6 {
   gap: 40px;
   align-items: start;
   background-color: white;
-  padding: 60px 80px;
   width: 100vw;
   box-sizing: border-box;
 }
 
 div.right7 {
   background: white;
-  padding: 40px 60px;
   height: auto;  
   max-width: 100%;
 }
@@ -625,9 +611,9 @@ img {
 }
 
 .asset32-img {
-  position: absolute;
-  left: 100px;
-  top: 7300px;
+  position: relative;
+  left: 00px;
+  top: 10px;
   height: 300px;
   width: 300px;
 }
@@ -636,14 +622,14 @@ img {
   position: relative;
   left: 120px;
   top: 20px;
-  height: 500px;
-  width: 500px;
+  height: 400px;
+  width: 400px;
 }
 
 .asset5-img {
-  position: absolute;
-  left: 850px;
-  top: 4615px;
+  position: relative;
+  left: 20px;
+  top: -110px;
   height: 600px;
   width: 600px;
 }
@@ -657,33 +643,32 @@ img {
 }
 
 .asset7-img {
-  position: absolute;
-  left: 760px;
-  top: 286px;
+  position: relative;
   height: 700px;
   width: 700px;
+  top: -180px;
 }
 
 .asset8-img {
-  position: absolute;
-  left: 450px;
-  top: 7201px;
+  position: relative;
+  left: 0px;
+  top: 0px;
   height: 500px;
   width: 500px;
 }
 
 .asset9-img {
-  position: absolute;
-  left: 0px;
-  top: 5400px;
+  position: relative;
+  left: -100px;
+  top: 0px;
   height: 650px;
   width: 650px;
 }
 
 .asset10-img {
-  position: absolute;
-  left: 820px;
-  top: 1199px;
-  height: 650px;
-  width: 650px;
+  position: relative;
+  left: 200px;
+  top: -85px;
+  height: 400px;
+  width: 400px;
 }
