@@ -416,9 +416,9 @@ div.body2 {
 }
 .red-stripes .stripe {
   height: 15px;
-  width: 820px;
+  width: 720px;
   background: red;
-  margin-left: -100px;
+  margin-left: 00px;
 }
 
 .red-stripes .stripe3 {
