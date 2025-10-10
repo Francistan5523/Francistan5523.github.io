@@ -1,5 +1,4 @@
 body{
-    margin: 0;
     font-size: 16px;
     line-height: 40px;
     font-family: "poppins", sans-serif;
@@ -24,6 +23,7 @@ div.title {
   font-weight: bold;
   font-style: normal;
   color: red;
+  margin-left: 50px;
 }
 
 div.title2 {
@@ -39,7 +39,7 @@ div.title2 {
 
 div.title3 {
   margin-top: 500px;
-  font-size:400px;
+  font-size: 30vw;
   font-family: "poppins", sans-serif;
   font-style: bold;
 }
@@ -82,11 +82,12 @@ div.firstsubtitle {
 
 div.quote {
   font-size: 20px;
-  line-height: 100px;
+  line-height: 30px;
   font-family: "poppins", sans-serif;
   font-weight: 400;
   font-style: italic;
-  margin-left: 180px;  
+  margin-left: 180px;
+  margin-top: 350px;  
 }
 
 div.quote2 {
@@ -166,8 +167,8 @@ div.footnote {
   font-family: "poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-top: 5px;
-  margin-left: 50px;
+  margin-top: 50px;
+  margin-left: 180px;
 }
 
 /* widths */
@@ -261,7 +262,7 @@ div.right {
 }
 
 .swoosh2 {
-  width: 100%;
+  width: 90%;
   height: auto;
   position: relative;
   left: -750px;
@@ -415,16 +416,15 @@ div.body2 {
 }
 .red-stripes .stripe {
   height: 15px;
-  width: 700px;
+  width: 820px;
   background: red;
   margin-left: -100px;
 }
 
 .red-stripes .stripe3 {
   height: 15px;
-  width: 640px;
+  width: 720px;
   background: red;
-  margin-left: 0px;
 }
 
 /* footnote */
@@ -440,7 +440,6 @@ div.body2 {
 
 /* third section layout */
 .third-section {
-  margin-top: 00px;
   display: grid;
   grid-template-columns: 30% 70%;
   gap: 40px;
@@ -525,21 +524,9 @@ div.right6 {
 }
 .black-stripes .stripe {
   height: 15px;
-  width: 1000px;
+  width: 900px;
   background: black;
-  margin-left: -100px;
-}
-
-/* vertical black stripes */
-.black-stripes2 {
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-}
-.black-stripes .stripe2 {
-  height: 100px;
-  width: 15px;
-  background: black;
+  margin-left: 00px;
 }
 
 /* seventh section layout */
@@ -585,6 +572,7 @@ img {
 
 .asset1-img {
   position: relative;
+  top: 100px;
   left: 100px;
 }
 
@@ -597,16 +585,16 @@ img {
 
 .asset3-img {
   position: relative;
-  left: -120px;
+  left: 200px;
   top: 20px;
 }
 
 .asset31-img {
   position: relative;
-  left: -800px;
-  top: 200px;
-  height: 400px;
-  width: 400px;
+  left: -650px;
+  top: 250px;
+  height: 500px;
+  width: 500px;
 }
 
 .asset32-img {
@@ -635,7 +623,7 @@ img {
 
 .asset6-img {
   position: relative;
-  left: 500px;
+  left: 400px;
   top: 200px;
   height: 200px;
   width: 200px;
@@ -658,7 +646,7 @@ img {
 
 .asset9-img {
   position: relative;
-  left: -100px;
+  left: 0px;
   top: 0px;
   height: 650px;
   width: 650px;
@@ -667,7 +655,7 @@ img {
 .asset10-img {
   position: relative;
   left: 200px;
-  top: -85px;
+  top: -90px;
   height: 400px;
   width: 400px;
 }
